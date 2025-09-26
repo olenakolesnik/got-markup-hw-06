@@ -103,13 +103,13 @@
 </div>
     </header>
     <main>
-<!-- <section class="hero">
+<section class="hero">
     <div class="container">
     <h1 class="hero-title">Effective Solutions
     for Your Business</h1>
     <button class="hero-btn-orange" type="button">Order Service</button>
     </div>
-</section> -->
+</section>
 <section class="feature">
     <div class="container">
     <h2 class="visually-hidden">Business basics</h2>
@@ -160,6 +160,7 @@
 <ul class="team-list">
     <li class="team-list-item">
         <img class="team-images"
+        srcset="./images/img-3.jpg 1x, ./images/photo1-2x.jpg 2x"
         src="./images/img-3.jpg"
         alt="photo Product Designer"
         width="264" 
@@ -200,6 +201,7 @@
     </div>
     <li class="team-list-item">
         <img class="team-images"
+        srcset="./images/img-2.jpg 1x, ./images/photo2-2x.jpg 2x"
         src="./images/img-2.jpg"
         alt="photo Frontend Developer"
         width="264" 
@@ -243,6 +245,7 @@
     </div>
     <li class="team-list-item">
         <img class="team-images"
+        srcset="./images/img-1.jpg 1x, ./images/photo3-2x.jpg 2x"
         src="./images/img-1.jpg"
         alt="photo Marketing"
         width="264" 
@@ -284,6 +287,7 @@
         </div>
     <li class="team-list-item">
         <img class="team-images"
+        srcset="./images/img-4.jpg 1x, ./images/photo4-2x.jpg 2x"
         src="./images/img-4.jpg"
         alt="photo UI Designer"
         width="264" 
@@ -333,12 +337,27 @@
     <ul class="portfolio-list">
         <li class="portfolio-item">
             <div class="portfolio-item-cover">
-            <img class="portfolio-images"
-            src="./images/img-10.jpg"
-            alt="photo banking"
-            width="360" 
-            height="300"
-            />
+                <picture>
+                <source
+                srcset="./images/PF1-1x.jpg 1x, 
+                ./images/PF1-2x.jpg 2x"
+                media="(min-width: 1158px)"
+                /> 
+                <source
+                srcset="./images/PFtablet1-1x.jpg 1x,
+                ./images/PFtablet1-2x.jpg 2x"
+                media="(min-width: 768px)"
+                />
+                <source
+                srcset="./images/PFmobile1-1x.jpg 1x,
+                ./images/PFmobile1-2x.jpg 2x"
+                media="(max-width: 767px)"
+                />
+                <img class="portfolio-images" 
+                src="./images/PF1-1x.jpg" 
+                alt="photo banking" 
+                width="360"/>
+                </picture>
             <p class="portfolio-text-caret">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -350,12 +369,27 @@
         </li>
         <li class="portfolio-item">
             <div class="portfolio-item-cover">
-            <img class="portfolio-images" 
-            src="./images/img-7.jpg" 
-            alt="photo cashless" 
-            width="360" 
-            height="300" 
-            />
+                <picture>
+            <source 
+            srcset="./images/PF2-1x.jpg 1x, 
+                ./images/PF2-2x.jpg 2x" 
+                media="(min-width: 1158px)" 
+                />
+            <source 
+            srcset="./images/PFtablet2-1x.jpg 1x,
+                ./images/PFtablet2-2x.jpg 2x" 
+                media="(min-width: 768px)" 
+                />
+             <source 
+             srcset="./images/PFmobile2-1x.jpg 1x,
+                ./images/PFmobile2-2x.jpg 2x" 
+                media="(max-width: 767px)" 
+                />
+                <img class="portfolio-images" 
+                src="./images/PF2-1x.jpg" 
+                alt="photo cashless" 
+                width="360"/>
+            </picture>
             <p class="portfolio-text-caret">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
             Cloud Storage App</p>
         </div>
@@ -366,12 +400,27 @@
         </li>
         <li class="portfolio-item">
             <div class="portfolio-item-cover">
-            <img class="portfolio-images" 
-            src="./images/img-9.jpg" 
-            alt="photo macbook and phone" 
-            width="360" 
-            height="300" 
+        <picture>
+            <source 
+            srcset="./images/PF3-1x.jpg 1x, 
+                    ./images/PF3-2x.jpg 2x" 
+                    media="(min-width: 1158px)" 
             />
+            <source 
+            srcset="./images/PFtablet3-1x.jpg 1x,
+                    ./images/PFtablet3-2x.jpg 2x" 
+                    media="(min-width: 768px)" 
+            />
+            <source 
+            srcset="./images/PFmobile3-1x.jpg 1x,
+                    ./images/PFmobile3-2x.jpg 2x" 
+                    media="(max-width: 767px)" 
+            />
+            <img class="portfolio-images" 
+            src="./images/PF3-1x.jpg" 
+            alt="photo macbook and phone" 
+            width="360"/>
+            </picture>
             <p class="portfolio-text-caret">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -383,12 +432,27 @@
         </li>
         <li class="portfolio-item">
             <div class="portfolio-item-cover">
-            <img class="portfolio-images" 
-            src="./images/img-6.jpg" 
-            alt="photo car and phone" 
-            width="360" 
-            height="300" 
+        <picture>
+            <source 
+            srcset="./images/PF4-1x.jpg 1x, 
+                    ./images/PF4-2x.jpg 2x" 
+            media="(min-width: 1158px)" 
             />
+            <source 
+            srcset="./images/PFtablet4-1x.jpg 1x,
+                    ./images/PFtablet4-2x.jpg 2x" 
+            media="(min-width: 768px)" 
+            />
+            <source 
+            srcset="./images/PFmobile4-1x.jpg 1x,
+                    ./images/PFmobile4-2x.jpg 2x" 
+            media="(max-width: 767px)" 
+            />
+            <img class="portfolio-images" 
+            src="./images/PF4-1x.jpg" 
+            alt="photo car and phone" 
+            width="360"/>
+            </picture>
             <p class="portfolio-text-caret">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -400,12 +464,24 @@
         </li>
         <li class="portfolio-item">
             <div class="portfolio-item-cover">
-            <img class="portfolio-images" 
-            src="./images/img-5.jpg" 
-            alt="photo screeshot" 
-            width="360" 
-            height="300" 
-            />
+        <picture>
+            <source 
+            srcset="./images/PF5-1x.jpg 1x, 
+                    ./images/PF5-2x.jpg 2x" 
+                    media="(min-width: 1158px)" />
+            <source 
+            srcset="./images/PFtablet5-1x.jpg 1x,
+                    ./images/PFtablet5-2x.jpg 2x" 
+                    media="(min-width: 768px)" />
+            <source 
+            srcset="./images/PFmobile5-1x.jpg 1x,
+                    ./images/PFmobile5-2x.jpg 2x" 
+                    media="(max-width: 767px)" />
+                    <img class="portfolio-images" 
+                    src="./images/PF5-1x.jpg" 
+                    alt="photo screeshot" 
+                    width="360"/>
+            </picture>
             <p class="portfolio-text-caret">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -417,12 +493,24 @@
         </li>
         <li class="portfolio-item">
             <div class="portfolio-item-cover">
+        <picture>
+            <source 
+            srcset="./images/PF6-1x.jpg 1x, 
+                    ./images/PF6-2x.jpg 2x" 
+            media="(min-width: 1158px)" />
+            <source 
+            srcset="./images/PFtablet6-1x.jpg 1x,
+                    ./images/PFtablet6-2x.jpg 2x" 
+            media="(min-width: 768px)" />
+            <source 
+            srcset="./images/PFmobile6-1x.jpg 1x,
+                    ./images/PFmobile6-2x.jpg 2x" 
+            media="(max-width: 767px)" />
             <img class="portfolio-images" 
-            src="./images/img-8.jpg" 
+            src="./images/PF6-1x.jpg" 
             alt="photo screeshot" 
-            width="360" 
-            height="300" 
-            />
+            width="360"/>
+            </picture>
             <p class="portfolio-text-caret">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p>
@@ -490,7 +578,7 @@
 </div>        
 </div>
     </footer>
-    <!-- <div class="backdrop">
+    <div class="backdrop">
     <div class="modal">
     <button type="button" class="modal-close">
         <svg class="modal-icon" width="8" height="8">
@@ -545,6 +633,6 @@
 <button type="submit" class="modal-btn">Send</button>
 </form>
     </div>  
-</div> -->
+</div>
 </body>
 </html>
