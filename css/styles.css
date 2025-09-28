@@ -416,8 +416,7 @@ background-color: #fff;
         color: #2e2f42;
         text-transform: capitalize;
         margin-bottom: 72px;
-        
-}
+    }
 
 .portfolio-list {
     display: flex;
@@ -878,8 +877,6 @@ border: none;
                 text-align: left;
             }
             .team-container {
-                padding-top: 96px;
-                padding-bottom: 96px;
                 padding-left: 108px;
                 padding-right: 108px;
             }
@@ -900,6 +897,9 @@ border: none;
             }
             .burger-btn {
                 display: none;
+            }
+            a[href^="tel:"] {
+            color: inherit;
             }
 .header {
     padding-top: 0;
@@ -928,7 +928,8 @@ border: none;
                 margin-right: 120px;
             }
             .header-menu-link.curret {
-                 position: relative;           
+                 position: relative; 
+                 color: #4d5ae5;          
             }
             .header-menu-link.curret::after {
                 content: '';
@@ -1036,10 +1037,15 @@ border: none;
                 font-size: 20px;
                 line-height: 1.2;
             }
+            .feature-text {
+                font-weight: 400;
+            }
+            .team {
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
             .team-list {
                 gap: 24px;
-                padding-top: 120px;
-                padding-bottom: 120px; 
             }
             .team-list-item {
                 width: calc((100% - 72px) / 4);    
@@ -1095,6 +1101,9 @@ border: none;
             .header-menu-link.curret {
             color: #404bbf;  
             }
+            .foot-container {
+                flex-wrap: nowrap;
+            }
             .foot {
                 padding-top: 100px;
                 padding-bottom: 100px;
@@ -1105,8 +1114,8 @@ border: none;
             .foot-text {
                 margin-bottom: 0;
             }
-            .logo-text-container {
-                margin-right: 120px;
+            .input-subscribe {
+                width: 264px;
             }
             .social-container {
                 margin-right: 80px;
