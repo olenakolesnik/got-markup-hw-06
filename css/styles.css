@@ -680,7 +680,10 @@ gap: 8px;
 }
 .link-user-privacy {
     text-decoration: underline;
-
+}
+.checkbox-icon {
+    width: 16px;
+    height: 16px;
 }
 .modal-btn {
     display: block;
@@ -756,10 +759,6 @@ fill: #ffffff;
                 letter-spacing: 0.04em;
                 color: #8e8f99;  
         }
-
-            .label-user-privacy {
-                
-            }
         .check-text {
                 font-weight: 400;
                 font-size: 12px;
